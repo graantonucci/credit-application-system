@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06d14729-2139-4c0f-99fe-b5ad4dd96706" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/service/CreditService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/service/CustomerService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/service/ICreditService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/service/ICustomerService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/controller/CreditResource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/controller/CustomerResource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CreditDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CreditView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CreditViewList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CustomerDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CustomerUpdateDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CustomerView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/resources/db/migration/V3__add_table_customer.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/entity/Credit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/entity/Credit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/repository/CreditRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/repository/CreditRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/entity/Customer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/entity/Customer.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +50,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Data Class" />
-        <option value="com.haulmont.jpb.FlywayMigrationScript" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
+        <option value="com.haulmont.jpb.FlywayMigrationScript" />
       </list>
     </option>
   </component>
@@ -85,9 +89,12 @@
       <recent name="C:\Users\grazi\Downloads\credit-application-system\credit-application-system\src\main\resources\db.migration\migration" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="me.dio.credit_application_system.controller" />
       <recent name="me.dio.credit_application_system.entity" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="me.dio.credit_application_system.dto" />
+      <recent name="me.dio.credit_application_system.controller" />
       <recent name="me.dio.credit_application_system.repository" />
       <recent name="me.dio.credit_application_system.enummeration" />
     </key>
