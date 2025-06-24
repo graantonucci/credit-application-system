@@ -65,7 +65,6 @@
 </p>
 <p align="center">
 
-    <!-- TREEVIEW START -->
     ```bash
     ├──credit-application-system/
     │   ├── README
@@ -79,9 +78,8 @@
     │   │       └── resources/
     ```
 
-    <!-- TREEVIEW END -->
-    
-Collection no Postman para testes!
+</p>
+<p align="center"> Collection no Postman para testes!
 </p>
 </figure>
 
