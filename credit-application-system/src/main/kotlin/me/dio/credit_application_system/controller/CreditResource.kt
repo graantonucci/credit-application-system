@@ -1,16 +1,15 @@
 package me.dio.credit_application_system.controller
 
+import jakarta.validation.Valid
 import me.dio.credit_application_system.dto.CreditDto
 import me.dio.credit_application_system.dto.CreditView
 import me.dio.credit_application_system.dto.CreditViewList
 import me.dio.credit_application_system.entity.Credit
-import me.dio.credit_application_system.entity.Customer
 import me.dio.credit_application_system.service.CreditService
-import org.apache.coyote.Response
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
-import java.util.UUID
+import java.util.*
 import java.util.stream.Collectors
 
 @RestController
@@ -19,7 +18,11 @@ class CreditResource(
     private val creditService: CreditService
 ){
     @PostMapping
-    fun saveCredit(@RequestBody creditDto: CreditDto) : ResponseEntity<String> {
+    fun saveCredit(@RequestBody @Valid creditDto: CreditDto) : ResponseEntity<String> {
+        if (creditDto.isValidDate().not())
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                .body("Credit ${creditDto.dayFirstOfInstallment} is less then 3 months to now")
+
         val credit: Credit =  this.creditService.save(creditDto.toEntity())
         return ResponseEntity.status(HttpStatus.CREATED)
             .body("Credit ${credit.creditCode} - Customer ${credit.customer?.firstName} saved!")
@@ -35,7 +38,7 @@ class CreditResource(
 
     @GetMapping("/{creditCode}")
     fun findByCreditCode(@RequestParam(value = "customerId") customerId: Long,
-                         @PathVariable creditCode: UUID) : ResponseEntity<CreditView> {
+                         @PathVariable creditCode: String) : ResponseEntity<CreditView> {
         val credit: Credit = this.creditService.findByCreditCode(customerId, creditCode)
         return ResponseEntity.status(HttpStatus.OK).body(CreditView(credit))
     }

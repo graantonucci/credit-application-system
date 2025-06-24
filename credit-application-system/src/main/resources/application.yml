@@ -3,7 +3,10 @@ spring:
     url: jdbc:h2:mem:credit_application_system_db
     username: grazi
     password: 1234
-  #jpa:
+  jpa:
+     show-sql: true
+     properties:
+       hibernate.format_sql: true
   #  hibernate:
   #    ddl-auto: create-drop
   h2:
@@ -13,3 +16,6 @@ spring:
       settings:
         trace: false
         web-allow-others: false
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
