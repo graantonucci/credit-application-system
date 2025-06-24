@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06d14729-2139-4c0f-99fe-b5ad4dd96706" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/configuration/Swagger3Config.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/exception/BusinessException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/exception/ExceptionDetails.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/exception/RestExceptionHandler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/test/kotlin/me/dio/credit_application_system/controller/CreditResourceTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/test/kotlin/me/dio/credit_application_system/controller/CustomerResourceTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/test/kotlin/me/dio/credit_application_system/repository/CreditRepositoryTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/test/kotlin/me/dio/credit_application_system/service/CreditServiceTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/test/kotlin/me/dio/credit_application_system/service/CustomerServiceTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit-application-system/src/test/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/controller/CreditResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/controller/CreditResource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/controller/CustomerResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/controller/CustomerResource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CreditDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CreditDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CustomerDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CustomerDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CustomerView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/dto/CustomerView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/entity/Credit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/entity/Credit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/repository/CreditRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/repository/CreditRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/repository/CustomerRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/repository/CustomerRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/service/CreditService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/service/CreditService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/service/CustomerService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/service/CustomerService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/service/ICreditService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/kotlin/me/dio/credit_application_system/service/ICreditService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credit-application-system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-application-system/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
