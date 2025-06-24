@@ -63,6 +63,26 @@
   <img src="https://i.imgur.com/1Ea5PH3.png" height="350" width="600" alt="Arquitetura em 3 camadas Projeto Spring Boot"/><br>
   Arquitetura em 3 camadas Projeto Spring Boot
 </p>
+<p align="center">
+
+    <!-- TREEVIEW START -->
+    ```bash
+    ├──credit-application-system/
+    │   ├── README
+    │   ├── credit-application-system.postman_collection
+    │   ├── src/
+    │   │   ├── main/
+    │   │   │   └── kotlin/
+    │   │   │   └── resources/
+    │   │   └── test/
+    │   │       ├── kotlin/
+    │   │       └── resources/
+    ```
+
+    <!-- TREEVIEW END -->
+    
+Collection no Postman para testes!
+</p>
 </figure>
 
 <h3>DESAFIO</h3>
@@ -91,14 +111,13 @@
 Feito com ❤️ por Cami-la 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Camila-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cami-la/)](https://www.linkedin.com/in/cami-la/)
-[![Gmail Badge](https://img.shields.io/badge/-camiladsantoscavalcante@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:camiladsantoscavalcante@gmail.com)](mailto:camiladsantoscavalcante@gmail.com)
 
 <h3>CoAutor</h3>
 
 Desafio aceito!
 Feito com ❤️ por Grazi 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Camila-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/maria-grazielle-antonucci/)](https://www.linkedin.com/in/maria-grazielle-antonucci/)
+[![Linkedin Badge](https://img.shields.io/badge/-Grazi-blue?style=flat-square&logo=Linkedin&logoColor=white&https://www.linkedin.com/in/maria-grazielle-antonucci/)](https://www.linkedin.com/in/maria-grazielle-antonucci/)
 
 <h3>Contribuindo</h3>
 
