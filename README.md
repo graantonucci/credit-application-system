@@ -64,8 +64,24 @@
   Arquitetura em 3 camadas Projeto Spring Boot
 </p>
 <p align="center">
-  Collection no Postman para testes
-  Localizada no projeto src > credit-application-system.postman_collection
+
+    <!-- TREEVIEW START -->
+    ```bash
+    ├──credit-application-system/
+    │   ├── README
+    │   ├── credit-application-system.postman_collection
+    │   ├── src/
+    │   │   ├── main/
+    │   │   │   └── kotlin/
+    │   │   │   └── resources/
+    │   │   └── test/
+    │   │       ├── kotlin/
+    │   │       └── resources/
+    ```
+
+    <!-- TREEVIEW END -->
+    
+Collection no Postman para testes!
 </p>
 </figure>
 
